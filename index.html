@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--
+      This is the page head - it contains info the browser uses to display the page
+      You won't see what's in the head in the page
+      Scroll down to the body element for the page content
+    -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <!-- 
+      This is an HTML comment
+      You can write text in a comment and the content won't be visible in the page
+    -->
+
+    <title>Pollie</title>
+
+    <!-- Meta tags for SEO and social sharing -->
+    <link rel="canonical" href="https://glitch-hello-website.glitch.me/" />
+    <meta
+      name="description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta name="robots" content="index,follow" />
+    <meta property="og:title" content="Hello World!" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://glitch-hello-website.glitch.me/" />
+    <meta
+      property="og:description"
+      content="A simple website, built with Glitch. Remix it to get your own."
+    />
+    <meta
+      property="og:image"
+      content="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2Fhello-website-social.png?v=1616712748147"
+    />
+    <meta name="twitter:card" content="summary" />
+
+    <!-- Import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- Import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <a href="index.html">
+      <img
+        id="logo"
+        src="https://cdn.glitch.com/54350dfc-eb13-4217-bf0e-7025b654d200%2FLogo.png?v=1628023507804"
+      />
+    </a>
+
+    <br />
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li><a href="problem.html">Problem</a></li>
+      </ul>
+
+      <div class="navtwo">
+        <div class="resourcesbutton">
+          <div class="dropdown">
+            <button class="dropbtn">
+              Solutions
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="beeinvolved.html">Bee Involved</a>
+              <a id="articlesnavbar" href="quiz.html">Quiz</a>
+              <a id="articlesnavbar" href="resources.html">Resources</a>
+            </div>
+          </div>
+        </div>
+        <ul></ul>
+      </div>
+    </div>
+
+    <div class="headbanner"></div>
+
+    <h1 id="header">Did you know that bees are facing a crisis?</h1>
+
+    <p id="tagline">
+      Bee populations are shrinking, and it's our job to help save them! Bees do
+      so much for us, from pollinating flowers and plants to providing us with
+      honey! 🐝🌷 <br />
+      The graph below shows the Total Honey Bee Population in the U.S. from Jan
+      2018 - Apr 2021
+    </p>
+
+    <div id="beechart1">
+      <center>
+        <iframe
+          width="800"
+          height="600"
+          src="https://datastudio.google.com/embed/reporting/797d8312-2c57-40a3-a9e9-728e5ad9dd4a/page/1UJXC"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        ></iframe>
+      </center>
+    </div>
+
+    <center>
+      <p id="beechart1tagline">
+        sourced from the
+        <a
+          href="https://usda.library.cornell.edu/concern/publications/rn301137d?locale=en"
+        >
+          USDA's National Agricultural Statistics Service
+        </a>
+      </p>
+    </center>
+
+    <center>
+      <h2 class="sectiontitle">Bee Data Visualizations!</h2>
+
+      <div class="container">
+        <div class="box">
+          <img
+            src="https://cdn.glitch.com/54350dfc-eb13-4217-bf0e-7025b654d200%2FCertificate%20of%20completion%20with%20realistic%20red%20ribbon%20and%20guilloches%20-%20Printable%20Horizontal%20Template%20(1).png?v=1628226058896"
+          />
+          <span> </span>
+        </div>
+        <div class="box">
+          <img
+            src="https://cdn.glitch.com/54350dfc-eb13-4217-bf0e-7025b654d200%2FCopy%20of%20Certificate%20of%20completion%20with%20realistic%20red%20ribbon%20and%20guilloches%20-%20Printable%20Horizontal%20Template.png?v=1628226207563"
+          />
+          <span></span>
+        </div>
+        <div class="box">
+          <img
+            src="https://cdn.glitch.com/54350dfc-eb13-4217-bf0e-7025b654d200%2FCopy%20of%20Copy%20of%20Certificate%20of%20completion%20with%20realistic%20red%20ribbon%20and%20guilloches%20-%20Printable%20Horizontal%20Template%20(3).png?v=1628228335920"
+          />
+        </div>
+        <div class="box">
+          <img
+            src="https://cdn.glitch.com/54350dfc-eb13-4217-bf0e-7025b654d200%2FCopy%20of%20Copy%20of%20Copy%20of%20Certificate%20of%20completion%20with%20realistic%20red%20ribbon%20and%20guilloches%20-%20Printable%20Horizontal%20Template%20(1).png?v=1628228256618"
+          />
+          <span></span>
+        </div>
+      </div>
+      <p>
+        above facts sourced from the USDA, Mayo Clinic, & Green Grubs Garden
+        Club
+      </p>
+    </center>
+
+    <br />
+    <br />
+
+    <div class="beefacts">
+      <center>
+        <h1>Why are bees important?</h1>
+
+        <h2 class="sectiontitle">Pollination:</h2>
+
+        <p class="funfact">
+          "Pollinators are essential to the production of food, and in the
+          United States, honey bees pollinate an estimated
+          <b> $15 billion of crops </b> each year, ranging from almonds to
+          zucchinis” <br />- Dr. Ann Bartuska, USDA
+        </p>
+
+        <p class="funfact">
+          “More than <b> 4,000 bee species </b> buzz around the United States.
+          Honey bees alone
+          <b> pollinate 80 percent of all flowering plants, </b>including more
+          than <b> 130 types of fruits and vegetables </b>.” (see chart below)
+          <br />- US Dept. of Agriculture
+        </p>
+
+        <iframe
+          width="600"
+          height="450"
+          src="https://datastudio.google.com/embed/reporting/c9dde92a-fa8f-4873-b0f4-e1e9a359bc4c/page/fuIXC"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen
+        ></iframe>
+
+        <!--        <div class="row">
+          <div class="column">
+            <img
+              src="https://cdn.glitch.com/54350dfc-eb13-4217-bf0e-7025b654d200%2FDataVisEcoBee.png?v=1628202944054"
+              alt="Ecological Services Bee Data Visualization"
+              style="width:100%"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="https://cdn.glitch.com/54350dfc-eb13-4217-bf0e-7025b654d200%2FDataVisFoodBee.png?v=1628202960048"
+              alt="Food Bee Data Visualization"
+              style="width:100%"
+            />
+          </div>
+        </div>
+
+ -->
+
+        <div id="honeyandenviro">
+          <h2 class="sectiontitle">Honey & the Environment:</h2>
+
+          <p class="funfact">
+            In the past 3 years, US bees have produced an average of
+            <b>$317 million dollars</b> worth of honey, which gets distributed
+            to homes and businesses across the country. <br />- US Dept. of
+            Agriculture
+          </p>
+
+          <p class="funfact" id="lastfact">
+            Bees are a vital part of several food webs because they pollinate
+            foods eaten by other animals and birds. The pollination of bees also
+            increase biodiversity.
+            <br />- Buzz About Bees
+          </p>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>
